@@ -16,7 +16,10 @@ namespace SmoothOperator
                 byte n = (byte)numin;
 
                 byte decremento = (byte)(--n);
-                Console.WriteLine($"Resultado da operação de decremento de n: {decremento}");
+                Console.WriteLine(decremento);
+                
+                byte incremento = (byte)(++n);
+                Console.WriteLine(incremento);
 
 
             }
