@@ -24,6 +24,9 @@ namespace SmoothOperator
                 byte div2 = (byte)(n / 2);
                 Console.WriteLine(div2);
 
+                byte sleft3 = (byte)(n << 3);
+                Console.WriteLine(sleft3);
+
 
             }
         }
