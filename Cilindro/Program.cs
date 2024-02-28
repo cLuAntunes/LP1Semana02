@@ -12,7 +12,11 @@ namespace Cilindro
 
             float alt = float.Parse(num1);
 
+            Console.WriteLine("Insira o raio do Cilindro:");
 
+            string num2 = Console.ReadLine();
+
+            float raio = float.Parse(num2);
 
         }
     }
