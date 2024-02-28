@@ -29,6 +29,9 @@ namespace ValoresEspeciais
 
             Console.WriteLine($"ushort: mínimo = {ushort.MinValue}");
             Console.WriteLine($"ushort: máximo = {ushort.MaxValue}");      
+
+            Console.WriteLine($"decimal: mínimo = {decimal.MinValue}");
+            Console.WriteLine($"decimal: máximo = {decimal.MaxValue}");    
         }
     }
 }
