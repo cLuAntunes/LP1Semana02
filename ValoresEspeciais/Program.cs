@@ -48,6 +48,12 @@ namespace ValoresEspeciais
             uint x = uint.MaxValue;
             Console.WriteLine((uint)(x + 1));
 
+            float x1 = 2 * float.MaxValue;
+            Console.WriteLine($"float overflow:{x1}");
+
+            float x2 = float.MaxValue + 1;
+            Console.WriteLine($"float overflow:{x2}");
+
         }
     }
 }
