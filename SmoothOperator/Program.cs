@@ -17,9 +17,12 @@ namespace SmoothOperator
 
                 byte decremento = (byte)(--n);
                 Console.WriteLine(decremento);
-                
+
                 byte incremento = (byte)(++n);
                 Console.WriteLine(incremento);
+
+                byte div2 = (byte)(n / 2);
+                Console.WriteLine(div2);
 
 
             }
