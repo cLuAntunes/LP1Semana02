@@ -31,7 +31,15 @@ namespace ValoresEspeciais
             Console.WriteLine($"ushort: máximo = {ushort.MaxValue}");      
 
             Console.WriteLine($"decimal: mínimo = {decimal.MinValue}");
-            Console.WriteLine($"decimal: máximo = {decimal.MaxValue}");    
+            Console.WriteLine($"decimal: máximo = {decimal.MaxValue}");  
+
+            Console.WriteLine($"float: mínimo = {float.MinValue}");
+            Console.WriteLine($"float: máximo = {float.MaxValue}");  
+            Console.WriteLine($"positivo infinito= {float.PositiveInfinity}");
+            Console.WriteLine($"negativo infinito= {float.NegativeInfinity}");  
+            Console.WriteLine($"NaN = {float.NaN}");  
+
+
         }
     }
 }
