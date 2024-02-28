@@ -30,6 +30,9 @@ namespace SmoothOperator
                 byte xorc5 = (byte)(n ^ 5);
                 Console.WriteLine(xorc5);
 
+                bool maior10 = n > 10;
+                Console.WriteLine(maior10);
+
             }
         }
     }
