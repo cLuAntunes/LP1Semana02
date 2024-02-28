@@ -45,6 +45,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"negativo infinito= {double.NegativeInfinity}");  
             Console.WriteLine($"NaN = {double.NaN}");  
 
+            uint x = uint.MaxValue;
+            Console.WriteLine((uint)(x + 1));
 
         }
     }
