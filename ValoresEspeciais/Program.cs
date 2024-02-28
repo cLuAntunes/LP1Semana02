@@ -15,6 +15,9 @@ namespace ValoresEspeciais
             Console.WriteLine($"int: mínimo = {int.MinValue}");
             Console.WriteLine($"int: máximo = {int.MaxValue}");
 
+            Console.WriteLine($"uint: mínimo = {uint.MinValue}");
+            Console.WriteLine($"uint: máximo = {uint.MaxValue}");
+
 
         }
     }
