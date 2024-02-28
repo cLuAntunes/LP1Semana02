@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "Valores
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTZero", "ChatGPTZero\ChatGPTZero.csproj", "{49ACAC46-70D5-4152-BD0E-EA72A2772C86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{561F41EF-3585-405D-952C-84670C89E17E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{49ACAC46-70D5-4152-BD0E-EA72A2772C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49ACAC46-70D5-4152-BD0E-EA72A2772C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49ACAC46-70D5-4152-BD0E-EA72A2772C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561F41EF-3585-405D-952C-84670C89E17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561F41EF-3585-405D-952C-84670C89E17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561F41EF-3585-405D-952C-84670C89E17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561F41EF-3585-405D-952C-84670C89E17E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
