@@ -18,6 +18,9 @@ namespace Cilindro
 
             float raio = float.Parse(num2);
 
+            float vol = MathF.PI * MathF.Pow(raio, 2) * alt;
+            Console.WriteLine($"O volume do Cilindro é: {vol}");
+
         }
     }
 }
