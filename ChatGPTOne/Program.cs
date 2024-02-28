@@ -11,8 +11,13 @@ namespace ChatGPTOne
             while (true)
             { 
 
-                Console.Write("Ask me something!: ");
+                Console.Write("Ask me something!(or type EXIT to quit!): ");
                 ask = Console.ReadLine();
+
+                if (ask == "EXIT")
+                {
+                    break;
+                }
 
                 switch (ask)
                 {
