@@ -10,6 +10,16 @@ namespace SmoothOperator
             string inteiro = Console.ReadLine();
 
             int numin = int.Parse(inteiro);
+
+             if (numin >= 0)
+            {
+                byte n = (byte)numin;
+
+                byte decremento = (byte)(--n);
+                Console.WriteLine($"Resultado da operação de decremento de n: {decremento}");
+
+
+            }
         }
     }
 }
