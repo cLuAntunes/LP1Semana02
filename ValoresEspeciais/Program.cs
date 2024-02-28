@@ -12,6 +12,9 @@ namespace ValoresEspeciais
             Console.WriteLine($"sbyte: mínimo = {sbyte.MinValue}");
             Console.WriteLine($"sbyte: máximo = {sbyte.MaxValue}");
 
+            Console.WriteLine($"int: mínimo = {int.MinValue}");
+            Console.WriteLine($"int: máximo = {int.MaxValue}");
+
 
         }
     }
