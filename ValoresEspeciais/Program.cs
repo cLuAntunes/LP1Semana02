@@ -39,6 +39,12 @@ namespace ValoresEspeciais
             Console.WriteLine($"negativo infinito= {float.NegativeInfinity}");  
             Console.WriteLine($"NaN = {float.NaN}");  
 
+            Console.WriteLine($"double: mínimo = {double.MinValue}");
+            Console.WriteLine($"double: máximo = {double.MaxValue}");  
+            Console.WriteLine($"positivo infinito= {double.PositiveInfinity}");
+            Console.WriteLine($"negativo infinito= {double.NegativeInfinity}");  
+            Console.WriteLine($"NaN = {double.NaN}");  
+
 
         }
     }
