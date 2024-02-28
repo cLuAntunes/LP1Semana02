@@ -27,6 +27,8 @@ namespace SmoothOperator
                 byte sleft3 = (byte)(n << 3);
                 Console.WriteLine(sleft3);
 
+                byte xorc5 = (byte)(n ^ 5);
+                Console.WriteLine(xorc5);
 
             }
         }
