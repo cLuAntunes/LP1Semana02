@@ -10,7 +10,24 @@ namespace MagicGun
             string numero = Console.ReadLine();
 
             int n = int.Parse(numero);
+
             
+            int i = 0;
+            while (true)
+            {
+                i++;
+
+                if (i >= n)
+                {
+                    break;
+                }
+
+                Console.WriteLine(i);
+
+            }
+
+             Console.WriteLine(i);
+
         }
     }
 }
