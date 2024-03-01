@@ -21,6 +21,11 @@ namespace MagicGun
                 {
                     break;
                 }
+
+                if (i % 5 == 0 && i % 3 == 0 )
+                {
+                    Console.WriteLine($"{i}: Magic Fire! Eletric Fire!");
+                }
                 else if (i % 3 == 0)
                 {
                     Console.WriteLine($"{i}: Magic Fire!");
