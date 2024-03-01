@@ -17,16 +17,25 @@ namespace MagicGun
             {
                 i++;
 
-                if (i >= n)
+                if (i > n)
                 {
                     break;
                 }
-
-                Console.WriteLine(i);
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine($"{i}: Magic Fire!");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine($"{i}: Eletric Fire!");
+                }
+                else
+                {
+                    Console.WriteLine($"{i}: Normal Fire :/");
+                }
 
             }
 
-             Console.WriteLine(i);
 
         }
     }
